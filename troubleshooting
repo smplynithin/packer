@@ -1,0 +1,9 @@
+1. ev variable is not taken by git bash so i manually feeded in the gitbash by
+export PATH=$PATH:/c/dev_tools/packer
+recheck by packer --version
+now manually feed this path to gitbash
+
+
+2. given json file didnt works because of plugin issue in newer verion of packer, so i downloaded the lower ver of 1.8.3 from below as per sai 
+https://releases.hashicorp.com/packer/1.8.3/
+then it works
